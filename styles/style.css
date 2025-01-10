@@ -1,17 +1,61 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+/* "Azeret Mono" font imported from font-google.com */
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 body {
-    overflow-x: hidden;
+  overflow-x: hidden;
+  font-family: "Azeret Mono", serif;
 }
 img {
-    vertical-align: middle;
+  vertical-align: middle;
 }
-a, a:hover{
-    text-decoration: none;
+a,
+a:hover {
+  text-decoration: none;
 }
-ul, ol, li{
-    list-style: none;
+ul,
+ol,
+li {
+  list-style: none;
 }
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+/* Shared style start from here */
+.btn-border {
+  padding: 16px 24px;
+  border-radius: 8px;
+  border: 1px solid #0d1321;
+  opacity: 0.8;
+
+  color: #0d1321;
+  font-size: 20px;
+  font-weight: 600;
+  background: transparent;
+  transition: all linear 0.3s;
+
+  &:hover {
+    background: #0d1321;
+    color: #fff;
+  }
+}
+/* Shared style end here */
+
+/* Navbar part styles start from here */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 36px 0;
+}
+nav .logo {
+  color: #0d1321;
+  font-size: 28px;
+  font-weight: 800;
+}
+/* Navbar part styles end here */

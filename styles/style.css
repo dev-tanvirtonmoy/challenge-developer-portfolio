@@ -240,13 +240,11 @@ nav .logo {
   background-position: center;
   margin: 48px 0;
   border-radius: 16px;
-
 }
-#newsletter .section-heading h2,
-p {
-  color: #fff;
-  width: 606px;
-  margin-inline: auto;
+.newsletter{
+    color: #fff;
+    width: 606px;
+    margin-inline: auto;
 }
 #newsletter form {
   display: flex;

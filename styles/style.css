@@ -27,12 +27,13 @@ li {
   margin: 0 auto;
 }
 /* Shared style start from here */
-.btn-border {
+.btn-border,
+.btn-fill {
   padding: 16px 24px;
   border-radius: 8px;
   border: 1px solid #0d1321;
   opacity: 0.8;
-
+  cursor: pointer;
   color: #0d1321;
   font-size: 20px;
   font-weight: 600;
@@ -43,6 +44,22 @@ li {
     background: #0d1321;
     color: #fff;
   }
+}
+.btn-fill {
+  background: #0d1321;
+  color: #fff;
+  &:hover {
+    background: transparent;
+    color: #0d1321;
+    border: 1px solid #0d1321;
+  }
+}
+p {
+  color: #0d1321;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 0.7;
 }
 /* Shared style end here */
 
@@ -59,3 +76,29 @@ nav .logo {
   font-weight: 800;
 }
 /* Navbar part styles end here */
+
+/* Banner part start from here */
+#banner {
+  background: url(../assets/hero-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 30px 0;
+}
+#banner figure {
+  margin-bottom: 32px;
+}
+.title {
+  color: #0d1321;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 68px;
+  margin-bottom: 24px;
+}
+#banner article > p {
+  width: 852px;
+  margin: 0 auto;
+  margin-bottom: 32px;
+}
+/* Banner part end here */

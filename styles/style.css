@@ -200,3 +200,32 @@ nav .logo {
   margin-top: 24px;
 }
 /* Target section styles end here */
+
+/* Next target styles start from here */
+.next-card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.next-card {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  padding: 40px;
+  border-radius: 16px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  background: #fff;
+}
+.next-card h3 {
+  margin: 24px 0 8px 0;
+  font-weight: 800;
+}
+.next-card a {
+  display: block;
+  color: #0d1321;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: underline;
+  margin-top: 24px;
+}
+/* Next target styles end here */
